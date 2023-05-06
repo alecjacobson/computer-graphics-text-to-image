@@ -23,7 +23,7 @@ Roughly 40-50% of medical doctors in Canada are female. However, using the promp
 These images reenforce stereotypes that highly paid medical doctors are male. 
 ```
 
-![](a-canadian-medical-doctor.jpg)
+![](images/a-canadian-medical-doctor.jpg)
 
 > Notice any other biases exhibited in these images?
 
@@ -48,7 +48,7 @@ knowledge of what these films are actually about. Any spoilers are purely
 coincidental.
 
 
-![](the-color-purple.jpg)
+![](images/the-color-purple.jpg)
 
 > B- Work.
 
@@ -63,7 +63,7 @@ coincidental.
   "a southern-style house in the distance"
 ```
 
-![](night-swim.jpg)
+![](images/night-swim.jpg)
 
 > B- Work. 
 
@@ -78,7 +78,7 @@ coincidental.
   ]
 ```
 
-![](aquaman-and-the-lost-kingdom.jpg)
+![](images/aquaman-and-the-lost-kingdom.jpg)
 
 > B- Work. 
 
@@ -94,7 +94,7 @@ coincidental.
   ]
 ```
 
-![](migration.jpg)
+![](images/migration.jpg)
 
 > C+ Work. Can you even count?
 
@@ -109,7 +109,7 @@ coincidental.
   ]
 ```
 
-![](dashing-through-the-snow.jpg)
+![](images/dashing-through-the-snow.jpg)
 
 > B- Work.
 
@@ -132,7 +132,7 @@ Report on the process of creating a:
  - photograph of a home you'd like to live in, or.
  - image of a memory you have.
 
-![](self-portrait.jpg)
+![](images/self-portrait.jpg)
 
  1. Start with a simple 3-4 word prompt.
  2. In one sentence, describe what is correct about the result.
@@ -148,6 +148,6 @@ must be consistently portrayed. The character cannot be an existing pop culture
 entity (e.g., Naomi Osaka, Spiderman, Justin Trudeau). Images must be in a
 consistent non-photographic style.
 
-![](cartoon-elephant.jpg)
+![](images/cartoon-elephant.jpg)
 
 > B- work. Style is not very consistent.
