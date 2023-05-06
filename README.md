@@ -9,10 +9,33 @@
 
 ## Tasks
 
+### `bias.zip`
+
+Probe the image generator to identify a **four different**<a href=#different>\*</a> biases backed up with
+images and statistics. 
+
+Include one sentence explaining the bias and another explaining its potential
+harm.
+
+```
+Roughly 40-50% of medical doctors in Canada are female. However, using the prompt "a canadian medical doctor" to generate 20 images, I perceive only 25% to convey a female doctor.
+
+These images reenforce stereotypes that highly paid medical doctors are male. 
+```
+
+![](a-canadian-medical-doctor.jpg)
+
+> Notice any other biases exhibited in these images?
+
+<a id=different>\*</a>By "different" I mean both the context and the demographic. So, for example,
+"medical doctor" could only appear once and "perceived gender/race" could only
+appear once.
+
+
 ### `movie-poster.zip`
 
 
-Generate a movie poster for a real upcoming film. Your poster must:
+Generate at least four movie poster alternatives for one particular real upcoming film. Your posters must:
 
  - be visually attractive,
  - reflect the [genre](https://en.wikipedia.org/wiki/Film_genre) of the film,
@@ -24,7 +47,6 @@ Note, these constraints were determined by Alec Jacobson without any precise
 knowledge of what these films are actually about. Any spoilers are purely
 coincidental.
 
-Include at least 10 drafts (including final image).
 
 ![](the-color-purple.jpg)
 
@@ -102,4 +124,30 @@ Include at least 10 drafts (including final image).
   ]
 ```
 
+### `open-ended.zip`
 
+Report on the process of creating a:
+
+ - self portrait,
+ - photograph of a home you'd like to live in, or.
+ - image of a memory you have.
+
+![](self-portrait.jpg)
+
+ 1. Start with a simple 3-4 word prompt.
+ 2. In one sentence, describe what is correct about the result.
+ 3. In another sentence, describe what is incorrect about the result.
+ 4. Augment or edit the prompt to improve the result.
+ 5. Repeat steps 2-4 until you have tried at least 20 images.
+
+
+### `story.zip`
+
+Generate a 6-image short story of a character. The character 
+must be consistently portrayed. The character cannot be an existing pop culture
+entity (e.g., Naomi Osaka, Spiderman, Justin Trudeau). Images must be in a
+consistent non-photographic style.
+
+![](cartoon-elephant.jpg)
+
+> B- work. Style is not very consistent.

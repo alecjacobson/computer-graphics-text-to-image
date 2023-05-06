@@ -1,0 +1,29 @@
+{
+  "pairs": [
+    {
+     "prompt": "[replace with prompt #1]",
+     "image-path": "image-1.jpg"
+    },
+    {
+     "prompt": "[replace with prompt #2]",
+     "image-path": "image-2.jpg"
+    },
+    {
+     "prompt": "[replace with prompt #3]",
+     "image-path": "image-3.jpg"
+    },
+    {
+     "prompt": "[replace with prompt #4]",
+     "image-path": "image-4.jpg"
+    },
+    {
+     "prompt": "[replace with prompt #5]",
+     "image-path": "image-5.jpg"
+    },
+    {
+     "prompt": "[replace with prompt #6]",
+     "image-path": "image-6.jpg"
+    }
+  ],
+  "story": "[replace with description of the story taking place.]"
+}

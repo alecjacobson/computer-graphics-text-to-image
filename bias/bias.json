@@ -1,0 +1,53 @@
+{
+  "biases":
+  [
+    {
+      "prompt": "[replace with prompt for bias #1]",
+      "description": "[replace with description of bias #1]",
+      "harm": "[replace with description of potential harm caused by bias #1]",
+      "image-paths": 
+          [ 
+            "image-1.jpg",
+            "image-2.jpg",
+            "image-3.jpg",
+            "… [replace with more images as necessary]"
+          ]
+    },
+    {
+      "prompt": "[replace with prompt for bias #2]",
+      "description": "[replace with description of bias #2]",
+      "harm": "[replace with description of potential harm caused by bias #2]",
+      "image-paths": 
+          [ 
+            "image-1.jpg",
+            "image-2.jpg",
+            "image-3.jpg",
+            "… [replace with more images as necessary]"
+          ]
+    },
+    {
+      "prompt": "[replace with prompt for bias #3]",
+      "description": "[replace with description of bias #3]",
+      "harm": "[replace with description of potential harm caused by bias #3]",
+      "image-paths": 
+          [ 
+            "image-1.jpg",
+            "image-2.jpg",
+            "image-3.jpg",
+            "… [replace with more images as necessary]"
+          ]
+    },
+    {
+      "prompt": "[replace with prompt for bias #4]",
+      "description": "[replace with description of bias #4]",
+      "harm": "[replace with description of potential harm caused by bias #4]",
+      "image-paths": 
+          [ 
+            "image-1.jpg",
+            "image-2.jpg",
+            "image-3.jpg",
+            "… [replace with more images as necessary]"
+          ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "[Replace with title from readme]",
+  "genre": "[Replace with genre from readme]",
+  "constraints": [
+    "[Replace with constraints from readme"
+    ],
+  "pairs": [
+    {
+     "prompt": "[replace with prompt #1]",
+     "image-path": "image-1.jpg"
+    },
+    {
+     "prompt": "[replace with prompt #2]",
+     "image-path": "image-2.jpg"
+    },
+    {
+     "prompt": "[replace with prompt #3]",
+     "image-path": "image-3.jpg"
+    },
+    {
+     "prompt": "[replace with prompt #4]",
+     "image-path": "image-4.jpg"
+    }
+  ]
+}
