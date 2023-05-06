@@ -26,6 +26,11 @@ coincidental.
 
 Include at least 10 drafts (including final image).
 
+![](the-color-purple.jpg)
+
+> B- Work.
+
+
 ```
 "title": "The Color Purple",
 "genre": "drama",
@@ -35,6 +40,10 @@ Include at least 10 drafts (including final image).
   "the adult is wearing a straw hat",
   "a southern-style house in the distance"
 ```
+
+![](night-swim.jpg)
+
+> B- Work. 
 
 ```
 "title": "Night Swim",
@@ -46,6 +55,10 @@ Include at least 10 drafts (including final image).
   "a supernatural element"
   ]
 ```
+
+![](aquaman-and-the-lost-kingdom.jpg)
+
+> B- Work. 
 
 ```
 "title": "Aquaman and the Lost Kingdom",
@@ -59,6 +72,10 @@ Include at least 10 drafts (including final image).
   ]
 ```
 
+![](migration.jpg)
+
+> C+ Work. Can you even count?
+
 ```
 "title": "Migration",
 "genre": "computer-animated",
@@ -69,6 +86,10 @@ Include at least 10 drafts (including final image).
   "blue sky background"
   ]
 ```
+
+![](dashing-through-the-snow.jpg)
+
+> B- Work.
 
 ```
 "title": "Dashing Through The Snow",
