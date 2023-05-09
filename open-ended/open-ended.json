@@ -1,4 +1,5 @@
 {
+  "goal" : "Replace with goal of the activity (e.g., self-portraint)",
   "pairs": [
     {
      "prompt": "[replace with prompt #1]",
