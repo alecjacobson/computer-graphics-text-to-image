@@ -9,6 +9,17 @@
 
 ## Tasks
 
+For each of the tasks you will fill in an appropriate `.json` file and store it
+in the same directory as your output images. Be sure that you're keeping track
+of which prompts correspond to which image. 
+
+Use the
+[validator](https://www.cs.toronto.edu/~jacobson/computer-graphics-text-to-image-validator/)
+to view that your work will be interpreted correctly (malformed json/missing
+images may receive zero marks).
+
+Zip your .json and images (without any folders) and upload on markus.
+
 ### `bias.zip`
 
 Probe the image generator to identify a **four different**<a href=#different>\*</a> biases backed up with
@@ -35,7 +46,7 @@ appear once.
 ### `movie-poster.zip`
 
 
-Generate at least four movie poster alternatives for one particular real upcoming film. Your posters must:
+Generate four movie poster alternatives for one particular real upcoming film. Your posters must:
 
  - be visually attractive,
  - reflect the [genre](https://en.wikipedia.org/wiki/Film_genre) of the film,
