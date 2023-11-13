@@ -7,6 +7,54 @@
 
 ## Background
 
+### Introduction
+
+Diffusion-model-based text-to-image generation produce images with unprecedented details and styles mimicking skilled artists.
+Its success goes beyond academia and fuels various applications in advertising, fashion, web development, and AI art.
+Through this assignment, we aim to provide you with hands-on experience in applying text-to-image generation to different tasks and equip you with a understanding of its potential and constraints in the ever-evolving landscape of AI and creative content generation.
+
+### Diffusion Model
+
+Diffusion models, or score-based generative models, is a family of generative models that consist of two processes: forward diffusion process and inverse diffusion process.
+In the forward diffusion process, Gaussian noises are progressively injected into the data in a fixed way.
+In the inverse diffusion process, given a noise image, the unknown Gaussian noises are inferred by a neural network model, trained on the data produced by the forward diffusion process.
+
+#### Forward Diffusion Process
+
+Given a real image $\mathbf{x}_0$, the forward diffusion process gradually adds small amount of Gaussian noise in $T$ steps.
+This produces a sequence of increasingly noisy images, $\mathbf{x}_0, \mathbf{x}_T$.
+Note that the final $\mathbf{x}_T$ is equivalent to a Gaussian noise.
+
+#### Reverse Diffusion Process
+
+Now, consider this process backwards.
+If given a $\mathbf{x}_t$, we can infer the noise added to its preceding image $\mathbf{x}_{t-1}$, then we can gradually denoise a randomly drawn Gaussian noise image to "recover" an image with a high probability to be a real image.
+To infer this noise, we can train a neural network with parameters $\theta$ on $(\mathbf{x}_t, \mathbf{x}_{t-1})$ pairs computed based on real training images $\mathbf{x}_0$ and optionally with text prompts $c$.
+
+#### Training Loss
+
+The goal of this model is to predict the noise $\mathbf{\epsilon}$ to denoise an image $\mathbf{x}_t$ by a small amount.
+The training loss is expected L2 distance
+$$L = \mathbb{E}_{t\sim[1, T], \mathbf{x}_0, \mathbf{\epsilon}_t} \left[ || \mathbf{\epsilon}_\theta(\mathbf{x}_t, t) - \mathbf{\epsilon}_t ||^2 \right] $$
+Note that the actual loss following a detailed derivation has a weighting term but empirically, this simple loss is found to work better. See [Lilian Weng's blog post](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/#parameterization-of-l_t-for-training-loss) for a detailed derivation.
+
+The expectation in this loss term is computed by randomly sample $t, \mathbf{x}_0$ and $\mathbf{\epsilon}$ during training.
+
+### Strengths & Weaknesses
+
+#### Strengths
+
+Understanding the strengths of this text-to-image generation is essential for practical applications.
+Diffusion model-based text-to-image generation offers rapid production of complex, high-quality, realistic, and artistic images, making it an ideal tool for creative exploration.
+Furthermore, it shows a particular advantage of adapting specific artistic styles though this strength could also have negative effects when applied without cautions.
+See Glaze& AI art paper for discussions about the impacts on current artist communities.
+
+#### Weaknesses
+
+It's equally important to acknowledge the limitations.
+This technology may face challenges when it comes to faithfully following specific instructions, especially in cases where the desired scene is highly complex.
+Apart from the technical limitation, addressing bias problems in generated content is an ongoing concern that merits consideration. You'll explore this bias issue in the first task.
+
 ## Tasks
 
 For each of the tasks you will fill in an appropriate `.json` file and store it
