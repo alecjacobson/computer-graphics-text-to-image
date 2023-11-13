@@ -28,14 +28,16 @@ Note that the final $\mathbf{x}_T$ is equivalent to a Gaussian noise.
 #### Reverse Diffusion Process
 
 Now, consider this process backwards.
-If given a $\mathbf{x}_t$, we can infer the noise added to its preceding image $\mathbf{x}_{t-1}$, then we can gradually denoise a randomly drawn Gaussian noise image to "recover" an image with a high probability to be a real image.
-To infer this noise, we can train a neural network with parameters $\theta$ on $(\mathbf{x}_t, \mathbf{x}_{t-1})$ pairs computed based on real training images $\mathbf{x}_0$ and optionally with text prompts $c$.
+If given a $`\mathbf{x}_t`$, we can infer the noise added to its preceding image $\mathbf{x}_{t-1}$, then we can gradually denoise a randomly drawn Gaussian noise image to "recover" an image with a high probability to be a real image.
+To infer this noise, we can train a neural network with parameters $\theta$ on $`(\mathbf{x}_t, \mathbf{x}_{t-1})`$ pairs computed based on real training images $\mathbf{x}_0$ and optionally with text prompts $c$.
 
 #### Training Loss
 
-The goal of this model is to predict the noise $\mathbf{\epsilon}$ to denoise an image $\mathbf{x}_t$ by a small amount.
+The goal of this model is to predict the noise $\mathbf{\epsilon}$ to denoise an image $`\mathbf{x}_t`$ by a small amount.
 The training loss is expected L2 distance
-$$L = \mathbb{E}_{t\sim[1, T], \mathbf{x}_0, \mathbf{\epsilon}_t} \left[ || \mathbf{\epsilon}_\theta(\mathbf{x}_t, t) - \mathbf{\epsilon}_t ||^2 \right] $$
+```math
+L = \mathbb{E}_{t\sim[1, T], \mathbf{x}_0, \mathbf{\epsilon}_t} \left[ || \mathbf{\epsilon}_\theta(\mathbf{x}_t, t) - \mathbf{\epsilon}_t ||^2 \right]
+```
 Note that the actual loss following a detailed derivation has a weighting term but empirically, this simple loss is found to work better. See [Lilian Weng's blog post](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/#parameterization-of-l_t-for-training-loss) for a detailed derivation.
 
 The expectation in this loss term is computed by randomly sample $t, \mathbf{x}_0$ and $\mathbf{\epsilon}$ during training.
