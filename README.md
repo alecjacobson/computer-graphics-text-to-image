@@ -36,6 +36,10 @@ Note that the final $`\mathbf{x}_T`$ is equivalent to a Gaussian noise.
 ```
 Here $`\alpha_t`$ is defined by a fixed schedule.
 
+![](images/diffusion.jpg)
+
+> Image source: [Ho et al. 2020](https://arxiv.org/abs/2006.11239).
+
 #### Reverse Diffusion Process
 
 Now, consider this process backwards.
