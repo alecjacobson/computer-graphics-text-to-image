@@ -21,9 +21,20 @@ In the inverse diffusion process, given a noise image, the unknown Gaussian nois
 
 #### Forward Diffusion Process
 
-Given a real image $\mathbf{x}_0$, the forward diffusion process gradually adds small amount of Gaussian noise in $T$ steps.
-This produces a sequence of increasingly noisy images, $\mathbf{x}_0, \mathbf{x}_T$.
-Note that the final $\mathbf{x}_T$ is equivalent to a Gaussian noise.
+Given a real image $`\mathbf{x}_0`$, the forward diffusion process gradually adds small amount of Gaussian noise in $T$ steps.
+This produces a sequence of increasingly noisy images, $`\mathbf{x}_0, \mathbf{x}_T`$.
+Note that the final $`\mathbf{x}_T`$ is equivalent to a Gaussian noise.
+
+```math
+\begin{align}
+ q(\mathbf{x}_t \vert \mathbf{x}_{t-1}) &= \mathcal{N}(\mathbf{x}_t; \sqrt{\alpha_t}\mathbf{x}_{t-1}, \sqrt{1 - \alpha_t}\mathbf{\epsilon}_{t-1})\\
+\mathbf{x}_t &= \sqrt{\alpha_t}\mathbf{x}_{t-1} + \sqrt{1 - \alpha_t}\mathbf{\epsilon}_{t-1} && \text{where } \mathbf{\epsilon}_{t-1}, \mathbf{\epsilon}_{t-2}, \dots \sim \mathcal{N}(\mathbf{0}, \mathbf{I}) \\
+ &= \sqrt{\alpha_t \alpha_{t-1}} \mathbf{x}_{t-2} + \sqrt{1 - \alpha_t \alpha_{t-1}} \bar{\mathbf{\epsilon}}_{t-2} && \text{where } \bar{\mathbf{\epsilon}}_{t-2} \text{ merges two Gaussians (*).} \\
+ &= \dots \\
+ &= \sqrt{\bar{\alpha}_t}\mathbf{x}_0 + \sqrt{1 - \bar{\alpha}_t}\mathbf{\epsilon}
+\end{align}
+```
+Here $`\alpha_t`$ is defined by a fixed schedule.
 
 #### Reverse Diffusion Process
 
@@ -42,6 +53,10 @@ Note that the actual loss following a detailed derivation has a weighting term b
 
 The expectation in this loss term is computed by randomly sample $t, \mathbf{x}_0$ and $\mathbf{\epsilon}$ during training.
 
+##### Further Readings
+1. [Weng, Lilian. (Jul 2021). What are diffusion models? Lil’Log](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/).
+2. [Song, Yang. (May 2021). Generative Modeling by Estimating Gradients of the Data Distribution. Yang Song’s blog](https://yang-song.net/blog/2021/score/).
+
 ### Strengths & Weaknesses
 
 #### Strengths
@@ -49,13 +64,21 @@ The expectation in this loss term is computed by randomly sample $t, \mathbf{x}_
 Understanding the strengths of this text-to-image generation is essential for practical applications.
 Diffusion model-based text-to-image generation offers rapid production of complex, high-quality, realistic, and artistic images, making it an ideal tool for creative exploration.
 Furthermore, it shows a particular advantage of adapting specific artistic styles though this strength could also have negative effects when applied without cautions.
-See Glaze& AI art paper for discussions about the impacts on current artist communities.
+
+##### Further Readings
+1. [Shan, Shawn, et al. (Aug 2023). Glaze: Protecting artists from style mimicry by text-to-image models. USENIX'23](https://people.cs.uchicago.edu/~ravenben/publications/pdf/glaze-usenix23.pdf).
+2. [Jiang, Harry, et al. (Aug 2023). AI Art and its Impact on Artists. AIES '23](https://dl.acm.org/doi/fullHtml/10.1145/3600211.3604681).
 
 #### Weaknesses
 
 It's equally important to acknowledge the limitations.
 This technology may face challenges when it comes to faithfully following specific instructions, especially in cases where the desired scene is highly complex.
-Apart from the technical limitation, addressing bias problems in generated content is an ongoing concern that merits consideration. You'll explore this bias issue in the first task.
+Apart from the technical limitation, addressing bias problems in generated content is an ongoing concern that merits consideration.
+You'll explore this bias issue in the first task.
+
+##### Further Readings
+1. [OpenAI. (Jul 2022). DALL·E 2 Preview - Risks and Limitations](https://github.com/openai/dalle-2-preview/blob/main/system-card.md#bias-and-representation).
+2. [Jernite, Yacine, et al. (Aug 2023).Hugging Face Ethics and Society Newsletter 2: Let's Talk about Bias!. Hugging Face Blog](https://huggingface.co/blog/ethics-soc-2).
 
 ## Tasks
 
@@ -122,6 +145,7 @@ coincidental.
   "one woman is adolescent, one is adult",
   "the adult is wearing a straw hat",
   "a southern-style house in the distance"
+  ]
 ```
 
 ![](images/night-swim.jpg)
