@@ -4,6 +4,7 @@
 > 
 >     git clone http://github.com/alecjacobson/computer-graphics-text-to-image.git
 >
+> **Privately hosted generator:** [Access here](https://huggingface.co/spaces/CSC317-UofT/csc317-diffusion). Let us know if you haven't received the invitation email.
 
 ## Background
 
