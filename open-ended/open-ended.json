@@ -3,120 +3,160 @@
   "pairs": [
     {
      "prompt": "[replace with prompt #1]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-1.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #2]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-2.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #3]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-3.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #4]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-4.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #5]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-5.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #6]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-6.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #7]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-7.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #8]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-8.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #9]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-9.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #10]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-10.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #11]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-11.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #12]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-12.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #13]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-13.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #14]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-14.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #15]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-15.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #16]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-16.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #17]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-17.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #18]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-18.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #19]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-19.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"
     },
     {
      "prompt": "[replace with prompt #20]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-20.jpg",
      "correct": "[replace with sentence describing what's correct]",
      "incorrect": "[replace with sentence describing what's incorrect]"

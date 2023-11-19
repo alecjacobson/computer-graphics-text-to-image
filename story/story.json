@@ -2,26 +2,38 @@
   "pairs": [
     {
      "prompt": "[replace with prompt #1]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-1.jpg"
     },
     {
      "prompt": "[replace with prompt #2]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-2.jpg"
     },
     {
      "prompt": "[replace with prompt #3]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-3.jpg"
     },
     {
      "prompt": "[replace with prompt #4]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-4.jpg"
     },
     {
      "prompt": "[replace with prompt #5]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-5.jpg"
     },
     {
      "prompt": "[replace with prompt #6]",
+     "model": "[SDv1.5|SDv2.1|SDXL]",
+     "seed": 42,
      "image-path": "image-6.jpg"
     }
   ],
